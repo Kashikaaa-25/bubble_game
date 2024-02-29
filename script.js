@@ -1,6 +1,6 @@
 var hitrn = 0;
 var score=0;
-var timer=10;
+var timer=60;
 
 
 function runTimer(){
@@ -11,7 +11,7 @@ function runTimer(){
         }
         else{
             clearInterval(timeStop);
-            document.querySelector("#pbtm").innerHTML = `<div id = "js"><h1>Your Score is ${score}</h1>}</div>`;
+            document.querySelector("#pbtm").innerHTML = `<div id = "js"><h1>Your Score is ${score}</h1></div>`;
         }     
     },1000);
 }
